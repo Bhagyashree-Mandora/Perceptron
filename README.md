@@ -7,6 +7,7 @@ The two input perceptron is trained on sample data and using a graph, it is show
 Here,
 
 h(x) = summation of (weights*input)
+
 g(h) = 1/(1 + exp**(-h))           ..it is the sigmoid function and acts as the activation function. 
 
 Our goal is to find a (linear) function (w1)x1 + (w2)x2 + w0 such that it separates the two classes of outputs (0 or 1), given the two inputs. The constants (weights- w0, w1, w2) are so adjusted based on the training data to minimize the error.
